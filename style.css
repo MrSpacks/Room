@@ -15,6 +15,10 @@ a {
 body {
   box-sizing: border-box;
 }
+.logo {
+  width: 80px;
+  height: 80px;
+}
 .conteiner {
   max-width: 1327px;
   margin: 0 auto;
@@ -35,16 +39,13 @@ body {
   display: flex;
   gap: 20px;
 }
-.header_icon {
-  /* margin-top: 20px; */
-}
+
 .link_map {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.link_cart {
-}
+
 .main_img {
   display: flex;
   margin: 20px auto;
@@ -166,5 +167,24 @@ body {
   cursor: pointer;
   &:hover {
     box-shadow: 4px 4px 20px black;
+  }
+}
+footer {
+  padding: 100px;
+  color: white;
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: space-around;
+}
+.footer_img {
+  display: flex;
+  gap: 20px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h5 {
+    margin-bottom: 15px;
   }
 }
